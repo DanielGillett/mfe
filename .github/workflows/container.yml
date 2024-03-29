@@ -8,7 +8,7 @@ on:
       - "packages/container/**"
 
 env:
-  AWS_DEFAULT_REGION: "" # Ensure to set this to your AWS region e.g., us-east-1
+  AWS_DEFAULT_REGION: "eu-west-2" # Ensure to set this to your AWS region e.g., us-east-1
 
 permissions:
   contents: read
@@ -24,7 +24,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "14" # Specify your project's Node.js version
+          node-version: "18.19.0" # Specify your project's Node.js version
 
       - name: Install Dependencies
         run: npm install
