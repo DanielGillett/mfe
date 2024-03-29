@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - "packages/container/**"
+      - "../../packages/container/**"
 
 env:
   AWS_DEFAULT_REGION: "eu-west-2" # Ensure to set this to your AWS region e.g., us-east-1
