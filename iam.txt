@@ -1,5 +1,0 @@
-website -> https://d1yi38v4053n0o.cloudfront.net
-iam -> iam-mfa
-access key:
-- A. Key -> AKIAUARHCB53ERGL4VRS
-- secret -> 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
