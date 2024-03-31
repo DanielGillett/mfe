@@ -65,6 +65,7 @@ export default function Header({ signedIn, onSignOut }) {
 
   return (
     <React.Fragment>
+      <div></div>
       <AppBar
         position="static"
         color="default"
